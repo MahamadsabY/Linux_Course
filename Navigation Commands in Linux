@@ -1,0 +1,23 @@
+# Linux Navigation Commands
+
+Navigation commands help you move through directories and explore the Linux file system.
+
+ls : List files
+ls -l   :  Long format
+ls -a   :  Show hidden files
+ls -lh  :  Human readable file size
+
+pwd : Present working directory
+Displays the current directory path.
+
+cd : Change Directory
+cd .. : Go on directory back 
+
+tree : Show directory in free format
+
+find : search for files
+
+locate : Search indexed files quickly
+
+which : locate command path
+
