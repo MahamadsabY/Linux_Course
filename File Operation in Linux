@@ -1,0 +1,48 @@
+# File Operations in Linux
+
+Linux provides several commands to create, copy, move, rename, and delete files and directories. These commands are essential for daily tasks.
+
+1. cp (Copy) :
+   - Copies files or directories.
+   ex : cp file1.txt file2.txt
+
+2. cp -r :
+    - copy folders or directories recursively
+    ex: cp -r folder1 folder2
+
+3. mv : (Move / Rename) :
+    - Moves or renames files and directories.
+    ex : mv oldfile.txt newfile.txt
+
+4. rm : (Remove) :
+    - Deletes files or directories.
+    ex : rm file.txt
+
+5. rm -r :
+    - Delete folders and directories recursively
+    ex : rm -r folder
+
+6. mkdir ( Make Directory) :
+    - Creates a new directory.
+    ex : mkdir myfolder
+         mkdir dir1 dir2 dir3
+
+7. mkdir -p :
+     - create parent directory 
+     ex : mkdir -p project/src/code
+
+8. rmdir (Remove Directory):
+    - Removes an empty directory.
+    ex: rmdir foldername
+
+9.touch :
+    - Create a new file
+
+
+
+Examples for your reference :
+touch test.txt
+mkdir project
+cp test.txt project/
+mv test.txt newtest.txt
+rm newtest.txt
