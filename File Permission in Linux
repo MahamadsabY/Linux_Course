@@ -1,0 +1,63 @@
+# File Permissions in Linux
+
+Linux uses a permission system to control who can read, write, or execute files and directories. These permissions help protect system files and user data.
+
+# Types of Permissions
+
+There are three main types of permissions in Linux :
+
+| Permission | Symbol | Meaning |
+|-------------|--------|---------|
+| Read | r | View file content |
+| Write | w | Modify the file |
+| Execute | x | Run the file as a program |
+
+# Permission Groups
+
+Permissions are assigned to three groups:
+
+| Group | Description |
+|------|-------------|
+| User (u) | Owner of the file |
+| Group (g) | Users in the same group |
+| Others (o) | All other users |
+
+-rwxr-xr-- 1 user user 1200 Mar 5 file.sh
+
+- rwx r-x r--
+| |   |   |
+| |   |   └── Others
+| |   └────── Group
+| └────────── User
+└──────────── File type
+
+1. chmod : change file permission
+      ex : chmod 755 file.sh
+
+2. chmod +x : Add execute permission
+
+3. chmod 755 : set specific permission
+
+4. chown : 
+      - Change ownership
+      ex : sudo chown user file.txt
+
+5. chgrp (Change Group) :
+      - chgrp developers file.txt
+
+     ex : ls -l
+          chmod 755 script.sh
+          chown user:group script.sh
+
+6. id : 
+     - shows group ID, user ID
+
+7. whoami :
+     - show current user 
+
+8. groups : 
+    - Show group of user
+
+
+
+
