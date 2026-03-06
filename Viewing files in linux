@@ -1,0 +1,39 @@
+Viewing Files in Linux :
+- Linux provides several commands to view the contents of files without modifying them. These commands are very useful for system administrators and DevOps engineers.
+
+1. cat (conctenate) : 
+        - Displays the entire content of a file.
+         ex : cat file.txt   -n for display the line numbers
+
+2. tac 
+    - Displays the entire content in reverse order
+
+3. less : 
+     - Displays file content one page at a time. Useful for large files.
+      ex : less file.txt
+
+4. more :
+     - View file sequenitally
+     - Similar to less, but with fewer features.
+      ex: more file.txt
+
+5. head :
+      - Shows the first 10 lines of a file by default.
+      ex: head file.txt
+
+6. tail :
+      - Shows the last 10 lines of a file.
+      ex : tail file.txt
+
+
+
+
+Examples for your reference :
+cat example.txt
+head example.txt
+tail example.txt
+less example.txt
+
+
+
+
