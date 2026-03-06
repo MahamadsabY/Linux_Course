@@ -18,11 +18,7 @@ User management in Linux allows administrators to create, modify, and manage use
      - Sets or changes the password of a user.
      ex: sudo passwd mahamad
 
-6. groupadd
-     - Creates a new group.
-     ex : sudo groupadd groupname
-
-7. who
+6. who
    - show currently logged in user.
 
 
@@ -30,6 +26,5 @@ Exmaple for your reference :
 
 sudo useradd -m devuser
 sudo passwd devuser
-sudo groupadd developers
 sudo usermod -aG developers devuser
 id devuser
