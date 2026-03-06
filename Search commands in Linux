@@ -17,6 +17,16 @@ Linux provides powerful commands to search for files, directories, and text with
     ex : which python
     output:  /usr/bin/python
 
-4. whareis :
-   - 
+4. whareis : 
+       - Finds the binary, source, and manual page for a command.
+       ex: whereis python
+       output: python: /usr/bin/python /usr/lib/python
+
+5. grep & egrep :
+       - The grep command searches for specific text patterns inside files.
+       - The egrep command used to extend grep for advanced pattern
+
+
+       
+    
 
