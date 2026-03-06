@@ -1,0 +1,35 @@
+# User Management in Linux
+
+User management in Linux allows administrators to create, modify, and manage user accounts and groups. It is an important part of system administration.
+
+1. useradd :
+    - Create a new user
+   ex : sudo useradd -m username
+
+2. usermod :
+     - Modifies an existing user account.
+     ex : sudo usermod -aG groupname username
+
+3. userdel :
+    - Deletes a user account.
+    ex : sudo userdel username
+
+5. passwd :
+     - Sets or changes the password of a user.
+     ex: sudo passwd mahamad
+
+6. groupadd
+     - Creates a new group.
+     ex : sudo groupadd groupname
+
+7. who
+   - show currently logged in user.
+
+
+Exmaple for your reference :
+
+sudo useradd -m devuser
+sudo passwd devuser
+sudo groupadd developers
+sudo usermod -aG developers devuser
+id devuser
