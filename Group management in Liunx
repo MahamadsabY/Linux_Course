@@ -1,0 +1,53 @@
+# Group Management in Linux
+
+Group management in Linux allows administrators to organize users into groups. This helps manage permissions and access control efficiently.
+
+1. groupadd :
+   - create a new group
+   ex : sudo groupadd developers
+
+2. groupdel :
+    - Deletes an existing group
+    ex : sudo groupdel developers
+
+3. newgrp : 
+    - Switch to new group
+
+4. gpasswd :
+     - Manage group password
+     ex: sudo gpasswd developers
+
+5. groupmod :
+     - Modifying existing group
+     ex : sudo groupmod sudo groupmod -n newgroupname oldgroupname --> renaming the group name
+
+6. getent group :
+    - show group database
+
+7. chgrp :
+    - change file in group
+
+=========================================================== XXXXXXX =================================================================
+
+# Switching Users in Linux
+
+In Linux, you can switch from one user account to another without logging out of the system. This is useful for system administrators who need to perform tasks as different users.
+
+1. su (Switch user) :
+    - The `su` command is used to switch to another user.
+    ex : su username
+
+2. su - :
+     - Switch user with environment
+
+3. exit :
+     - Returning to Original User
+
+
+examples for your reference :
+
+whoami
+su john
+whoami
+exit
+whoami
