@@ -1,0 +1,22 @@
+# Search Commands in Linux
+
+Linux provides powerful commands to search for files, directories, and text within files. These commands are very useful for system administrators and DevOps engineers.
+
+1. find : 
+    - The `find` command is used to search for files and directories in a specific location.
+    ex :Search a file by name:
+        find /home -name file.txt
+
+2. locate : 
+    - Quick file search using datebase
+    ex: locate file.txt
+    ex : sudo updatedb  ---> Update locate database
+
+3. which :
+     - show path of command
+    ex : which python
+    output:  /usr/bin/python
+
+4. whareis :
+   - 
+
