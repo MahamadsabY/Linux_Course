@@ -1,0 +1,56 @@
+File System Hierarchy 
+
+/ (Root) : Root Location
+         - Like a windows C drive this is the home location of Linux O.S
+
+/home : guest user
+        - admin user is root user
+
+/usr : (User Program & Binaries)
+        - this location of file system includes software files and libraries
+
+/bin, /sbin : (Essential binaries)
+            - Contains essential user and system administration binaries.
+            - Example: ls, cp, mv, cat.
+
+/etc :  System configuration files are stored here.
+        - Example: network configs, user configs.
+
+/tmp : - Temporary files created by applications.
+       - Files may be deleted after reboot.
+
+/dev : - Contains device files representing hardware devices.
+        - Example: disks, USB devices, terminals.
+
+/proc : Virtual filesystem that provides process and kernel information.
+
+/sys : Contain system information
+
+/var : - Stores variable data such as logs, mail, and spool files.
+- Example: /var/log
+
+Please find below linux file tree :
+
+/ (Root)
+├── bin        # Essential user binaries (ls, cp, mv)
+├── boot       # Boot loader files and kernel
+├── dev        # Device files
+├── etc        # Configuration files
+├── home       # User home directories
+│   └── user
+├── lib        # Shared libraries
+├── media      # Removable media (USB, CD)
+├── mnt        # Temporary mount point
+├── opt        # Optional software
+├── proc       # Process information (virtual filesystem)
+├── root       # Root user home directory
+├── run        # Runtime system information
+├── sbin       # System binaries (admin commands)
+├── tmp        # Temporary files
+├── usr        # User programs and utilities
+│   ├── bin
+│   ├── lib
+│   └── share
+└── var        # Variable data (logs, mail)
+    └── log
+
