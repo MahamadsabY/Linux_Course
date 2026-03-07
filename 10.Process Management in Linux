@@ -1,0 +1,45 @@
+# Process Management in Linux
+
+A **process** is a running instance of a program. Linux provides several commands to monitor, manage, and control processes.
+
+1.top
+  - Displays real-time information about running processes and system resources.
+  ex : top
+
+2.htop :
+   - An interactive process viewer (enhanced version of top).
+    ex : htop
+
+3. ps (present Status):
+   - Displays information about active processes.
+
+4. ps -ef :
+     - Show all running processes
+
+5. ps -aux :
+     - Shows processes output in user friendly format
+
+6. kill :
+     - Terminates a process using its Process ID (PID).
+
+7. pkill :
+     - Kills processes by name.
+
+8. jobs :
+     - Shows background jobs in the current shell.
+
+9. nice :
+    - Starts a process with a specific priority.
+    ex : nice -n 10 python script.py
+
+10. renice :
+      - Changes the priority of a running process.
+      ex : renice 10 PID
+
+
+Examples for your reference :
+
+ps aux
+top
+kill 1234
+jobs
