@@ -1,0 +1,52 @@
+# File Compression and Extraction in Linux
+
+Linux provides several commands to compress and extract files. Compression helps reduce file size, making it easier to store and transfer data.
+
+1. tar :
+     - The `tar` command is used to archive multiple files into a single file.
+     ex : tar -cvf archive.tar folder/
+     Options:
+
+             c → Create archive
+             v → Verbose (show progress)
+             f → File name
+             x -> extract
+             z -> zip
+
+2. zip :
+     - Compress files into a zip archive.
+     ex : zip archive.zip file1 file2
+
+3. unzip :
+      - Extract zip files.
+      ex : unzip archive.zip
+
+4. bzip2 :
+      - advanced copressing of file
+      - Compress file using bzip2.
+      ex : bzip2 file.txt
+           bunzip for decpmress
+
+5. gzip :
+      - Copmress fast
+      ex: gzip file.txt
+          gunzip for decompress
+
+
+Examples for your reference :
+
+tar -czvf backup.tar.gz project/
+unzip files.zip
+gzip file.txt
+gunzip file.txt.gz
+
+
+
+
+
+
+
+
+
+
+
