@@ -1,0 +1,39 @@
+# Filesystem Tools in Linux
+
+Filesystem tools in Linux are used to check, repair, create, and manage filesystems. These tools help maintain disk integrity and ensure proper storage management.
+
+1. fsck (File system check) :
+     - The `fsck` command is used to check and repair filesystem errors.
+     ex : sudo fsck /dev/sdb1
+
+2. mkfs (make filesystem) :
+     - Creates a new filesystem on a partition.
+     ex : sudo mkfs.ext4 /dev/sdb1
+
+3. dumpe2fs :
+       - Displays detailed information about an ext filesystem.
+      ex: sudo dumpe2fs /dev/sda1
+
+4. tune2fs :
+       - Used to modify filesystem parameters for ext2/ext3/ext4 filesystems.
+       ex : sudo tune2fs -l /dev/sda1
+
+5. resize2fs : 
+         - Resize the file system
+
+
+Examples for your reference :
+
+lsblk
+sudo mkfs.ext4 /dev/sdb1
+sudo mount /dev/sdb1 /mnt
+blkid
+sudo fsck /dev/sdb1
+
+
+
+
+
+
+
+
