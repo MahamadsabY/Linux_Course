@@ -1,0 +1,45 @@
+# System Resources in Linux
+
+Linux provides several commands to monitor system resources such as CPU usage, memory usage, disk space, and system performance. These commands are useful for system administrators and DevOps engineers.
+
+1. free :
+     - Displays memory usage (RAM and swap).
+     - free -h for human readable format
+
+2. df :
+     - Shows disk usage
+     -df -h for human readable format
+
+3. du :
+    - Shows disk usage of files and directories.
+    - du -sh for human readable format
+
+4. uptime :
+     - Shows how long the system has been running.
+
+5. vmstat :
+    - Displays system performance statistics.
+    ex: vmstat 2 ---> updates every 2 second
+
+6. iostat :
+      - Shows CPU usage and disk input/output statistics.
+
+7. watch :
+      - Manages software
+
+8. ulimit :
+      - resource limit
+      ex : watch -n 5 macchanger -e eth0  ---> that means mac address will change every 5 sec
+
+
+******** " These commands help monitor system health and performance in Linux environments. " **********
+
+
+
+
+
+
+
+
+
+
