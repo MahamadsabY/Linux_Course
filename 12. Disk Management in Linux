@@ -1,0 +1,42 @@
+# Disk Management in Linux
+
+Disk management in Linux involves creating partitions, formatting disks, mounting filesystems, and monitoring disk usage. These tasks are essential for system administrators.
+
+1. fdisk :
+     - Used to create and manage disk partitions.
+    ex : sudo fdisk /dev/sda
+
+2. lsblk :
+     - Displays information about all available block devices.
+
+3.mkfs :
+     - Creates a filesystem on a partition.
+     ex : sudo mkfs.ext4 /dev/sdb1
+
+4. mount :
+      - Mounts a filesystem to a directory.
+      ex : sudo mount /dev/sdb1 /mnt
+
+5. umount :
+      - Unmounts a filesystem.
+      ex ; sudo umount /mnt
+
+6. parted :
+      - Advanced tool for managing disk partitions.
+      ex : sudo parted /dev/sda
+
+Examples for your reference :
+
+lsblk
+sudo fdisk /dev/sdb
+sudo mkfs.ext4 /dev/sdb1
+sudo mount /dev/sdb1 /mnt
+df -h
+
+
+
+
+
+
+
+
